@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Malibu",
+      "price": "$554610.89",
+      "image": "http://dummyimage.com/93x85.png/cc0000/ffffff"
+    },
+    {
+      "id": 2,
+      "title": "E250",
+      "price": "$3341682.53",
+      "image": "http://dummyimage.com/108x137.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 3,
+      "title": "Sierra 2500",
+      "price": "$6074608.68",
+      "image": "http://dummyimage.com/76x127.png/ff4444/ffffff"
+    },
+    {
+      "id": 4,
+      "title": "G-Class",
+      "price": "$5094439.33",
+      "image": "http://dummyimage.com/92x149.png/ff4444/ffffff"
+    },
+    {
+      "id": 5,
+      "title": "Aurora",
+      "price": "$5206341.48",
+      "image": "http://dummyimage.com/134x124.png/ff4444/ffffff"
+    },
+    {
+      "id": 6,
+      "title": "EX",
+      "price": "$4092908.61",
+      "image": "http://dummyimage.com/81x126.png/dddddd/000000"
+    },
+    {
+      "id": 7,
+      "title": "Element",
+      "price": "$8321311.72",
+      "image": "http://dummyimage.com/127x53.png/ff4444/ffffff"
+    },
+    {
+      "id": 8,
+      "title": "Montana",
+      "price": "$12345",
+      "image": "http://dummyimage.com/105x65.png/cc0000/ffffff"
+    },
+    {
+      "id": 9,
+      "title": "S Class",
+      "price": "$1245399",
+      "image": "http://dummyimage.com/135x64.png/cc0000/ffffff"
+    },
+    {
+      "id": 11,
+      "title": "BMW",
+      "price": "$1299999",
+      "image": "http://dummyimage.com/135x64.png/cc0000/ffffff"
+    },
+    {
+      "id": 12,
+      "title": "Honda",
+      "price": "$26799",
+      "image": "http://dummyimage.com/127x53.png/ff4444/ffffff"
+    }
+  ]
+}

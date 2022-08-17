@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        #container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+            border-top: 1px solid teal;
+            padding-top: 1%;
+            background-color: rgb(180, 210, 237);
+        }
+        #container div{
+            border: 2px solid red;
+            text-align: center;
+            padding: 1.5%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        #container div img{
+            width: 80%;
+            height: 290px;
+        }
+        p{
+            font-size: larger;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Add Product</h1>
+
+        <input type="text" id="id" placeholder="id">
+        <input type="text" name="" id="title" placeholder="name">
+        <input type="text" name="" id="price" placeholder="price">
+        <input type="text" id="images" placeholder="image url">
+        <button onclick="addPost()">Submit</button>
+    </div>
+
+    <div>
+        <h1>Delete Product</h1>
+        <input type="text" id="delete_id" placeholder="Enter id to Delete">
+        <button onclick="deletePost()">Delete</button>
+    </div>
+
+    <div>
+        <h1>Patch Product</h1>
+        <input type="text" id="patch_id" placeholder="Enter id to Patch">
+        <input type="text" name="" id="new_title" placeholder="new name">
+        <input type="text" id="new_price" placeholder="New Price">
+        <button onclick="patchProduct()">Patch</button>
+    </div>
+    
+    <br>
+    <h1>All Product List:</h1>
+    <div id="container">
+        
+    </div>
+</body>
+</html>
+<script src="admin.js"></script>
